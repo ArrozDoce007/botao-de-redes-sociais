@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: linear-gradient(#9100b6, #f33be4, #ebb2d5);
+    min-height: 100vh;
+}
+
+.buttongit {
+    position: absolute;
+    top: 25%;
+    left: 38.8%;
+    width: 20%;
+    height: 6%;
+    border: 2px solid #ff41c0;
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #e57eff;
+    box-shadow: -2px 3px 0 burlywood, -4px 2px 0 #ebb2d5;
+}
+
+.buttongit:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
+
+.buttonmail {
+    position: absolute;
+    top: 35%;
+    left: 38.8%;
+    width: 20%;
+    height: 6%;
+    border: 2px solid #ff41c0;
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #e57eff;
+    box-shadow: -2px 3px 0 burlywood, -4px 2px 0 #ebb2d5;
+}
+
+.buttonmail:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
+
+.buttonzap {
+    position: absolute;
+    top: 45%;
+    left: 38.8%;
+    width: 20%;
+    height: 6%;
+    border: 2px solid #ff41c0;
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1rem);
+    color: white;
+    background-color: #e57eff;
+    box-shadow: -2px 3px 0 burlywood, -4px 2px 0 #ebb2d5;
+}
+
+.buttonzap:active {
+    background-color: #bd008a;
+    box-shadow: inset -4px 4px 0 #fb8dff;
+}
